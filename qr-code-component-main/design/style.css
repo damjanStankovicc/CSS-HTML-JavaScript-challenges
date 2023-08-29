@@ -1,5 +1,5 @@
 .background_blue {
-    background-color: rgb(217, 217, 254);
+    background-color: hsl(212, 45%, 89%);
     /* Center this element */
     display: flex;
     align-items: center;
@@ -18,6 +18,31 @@
 	justify-content: center;
     /* Making round corners */
     border-radius: 16px;
+    padding: 20px 20px 27px 20px;
+}
+
+.qr_code {
+    border-radius: 16px;
+    height: 355px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main_text {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
     
 }
 
+.desctiption {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    box-sizing: border-box;
+}
+
+p {
+    display: block;
+    margin: 0;
+}
