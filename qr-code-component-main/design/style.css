@@ -1,3 +1,4 @@
+
 .background_blue {
     background-color: hsl(212, 45%, 89%);
     /* Center this element */
@@ -8,6 +9,8 @@
     margin: 65px 150px 65px 150px;
     /* Add padding for element with class container */
     padding: 100px 25px;
+    min-width: 400;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .container {
@@ -19,11 +22,23 @@
     /* Making round corners */
     border-radius: 16px;
     padding: 20px 20px 27px 20px;
+    max-width: 315px;
+    min-width: 315px;
+}
+
+.container:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+
 }
 
 .qr_code {
     border-radius: 16px;
-    height: 355px;
+    height: 315px;
+}
+
+.qr_code:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 body {
@@ -33,16 +48,16 @@ body {
 .main_text {
     font-weight: 700;
     color: hsl(218, 44%, 22%);
-    
+    text-align: center;
+    margin-bottom: 17px;
+    margin-top: 23px;
+    font-size: 25px;
 }
 
-.desctiption {
-    font-size: 15px;
-    color: hsl(220, 15%, 55%);
-    box-sizing: border-box;
-}
 
 p {
-    display: block;
-    margin: 0;
+    font-size: 19px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color:  hsl(212, 11%, 69%);
 }
