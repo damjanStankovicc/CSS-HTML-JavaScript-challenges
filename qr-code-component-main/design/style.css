@@ -1,0 +1,23 @@
+.background_blue {
+    background-color: rgb(217, 217, 254);
+    /* Center this element */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Add margins */
+    margin: 65px 150px 65px 150px;
+    /* Add padding for element with class container */
+    padding: 100px 25px;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    /* Making round corners */
+    border-radius: 16px;
+    
+}
+
